@@ -3,8 +3,10 @@ body {
 }
 
 h1 {
+  font-family: verdana;
   color: white;
   text-align: center;
+  font-size: 100px;
 }
 
 p {
