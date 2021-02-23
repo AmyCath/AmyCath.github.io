@@ -6,10 +6,11 @@ body {
   position: absolute;
   left: 0px;
   right: 0px;
-  width: 90%;
+  width: 85%;
   height:500px;
   float: left;
-  clear: both
+  clear: both;
+  font-size: 0;
 }
 
 h1 {
