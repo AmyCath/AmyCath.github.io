@@ -2,15 +2,19 @@ body {
   background-color: #ffccdd;
 }
 
-.HeaderIMG {
+#HeaderIMG {
   position: absolute;
   left: 0px;
   right: 0px;
-  width: 85%;
+  width: 100%;
   height:500px;
   float: left;
   clear: both;
   font-size: 0;
+}
+
+#IntroText {
+  display:block; 
 }
 
 h1 {
