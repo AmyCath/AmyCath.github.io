@@ -1,5 +1,5 @@
 body {
-  background-color: #ffccdd;
+  background-color: #000000;
 }
 
 #HeaderIMG {
@@ -33,4 +33,5 @@ p {
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 80px;
+  display:block; 
 }
