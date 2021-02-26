@@ -33,3 +33,7 @@ p {
   margin-left: 80px;
   display:block; 
 }
+
+div {
+    overflow:hidden;
+}
