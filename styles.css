@@ -13,16 +13,88 @@ p {
   padding: 0px;
 }
 
+.item1 {
+  grid-area: augIMG;
+}
+
+.item2 {
+  grid-area: augText;
+}
+
+.item3 {
+  grid-area: sepText;
+}
+
+.item4 {
+  grid-area: sepIMG;
+}
+
+.item5 {
+  grid-area: octIMG;
+}
+
+.item6 {
+  grid-area: octText;
+}
+
+.item7 {
+  grid-area: novText;
+}
+
+.item8 {
+  grid-area: novIMG;
+}
+
+.item9 {
+  grid-area: decIMG;
+}
+
+.item10 {
+  grid-area: decText;
+}
+
+.item11 {
+  grid-area: janText;
+}
+
+.item12 {
+  grid-area: janIMG;
+}
+
+.item13 {
+  grid-area: febIMG;
+}
+
+.item14 {
+  grid-area: febText;
+}
+
+.item15 {
+  grid-area: marText;
+}
+
+.item16 {
+  grid-area: marIMG;
+}
+
 .container {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 20%,20%,20%,20%,20%;
   grid-gap: 10px;
   padding: 10px;
+  grid-template-areas: 
+    "augIMG augIMG augText augText augText"
+    "sepText sepText sepText sepIMG sepIMG"
+    "octIMG octIMG octText octText octText" 
+    "novText novText novText novIMG novIMG"
+    "decIMG decIMG decText decText decText"
+    "janText janText janText janIMG janIMG"
+    "febIMG febIMG febText febText febText"
+    "marText marText marText marIMG marIMG";
   grid-auto-rows: minmax(200px, auto);
   justify-content: center;
   align-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  
+  font-family: Arial, Helvetica, sans-serif;  
 }
 
 .container > div {
