@@ -3,11 +3,14 @@ p {
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   color: DimGrey;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 #HeaderIMG {
   width: 100%;
   padding: 0px;
+}
+
+.container {
+  display: grid;
+
 }
