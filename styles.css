@@ -10,13 +10,11 @@ p {
   padding: 0px;
 }
 
-.item1 { grid-area: augimg; }
-.item2 { grid-area: augtext; }
-
 .container {
   display: grid;
-  grid: auto auto;
+  grid-template-columns: 40% 60%;
   grid-gap: 10px;
   padding: 10px;
+  grid-auto-rows: minmax(200px, auto);
   
 }
