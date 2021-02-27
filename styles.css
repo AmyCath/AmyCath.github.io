@@ -15,8 +15,7 @@ p {
 
 .container {
   display: grid;
-  grid: 'augimg augtext augtext' 
-    '...';
+  grid: auto auto;
   grid-gap: 10px;
   padding: 10px;
   
