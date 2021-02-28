@@ -133,5 +133,6 @@ p {
 
 .goalsGrid {
   display: grid;
-  grid: auto auto;
+  grid-template-columns: auto auto;
+  
 }
