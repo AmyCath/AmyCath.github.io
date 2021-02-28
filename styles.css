@@ -131,7 +131,7 @@ p {
 
 }
 
-.goalsGrid {
+.containerOne {
   display: grid;
   grid-template-columns: auto auto;
   padding:10px;
@@ -141,7 +141,7 @@ p {
   font-family: Arial, Helvetica, sans-serif;  
 }
 
-.goalsGrid > div {
+.containerOne > div {
   padding: 20px;
   text-align: center;
   font-size: 28px;
