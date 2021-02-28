@@ -28,6 +28,12 @@ h4 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h3 {
+  color: #BB476E;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 #introText {
   color: DimGrey;
   padding: 15px;
