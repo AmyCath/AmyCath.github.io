@@ -32,7 +32,7 @@ p {
   padding: 0px;
 }
 
-#GoalsIMG {
+#goalsIMG {
   width: 100%;
   padding: 0px;
 }
@@ -133,11 +133,11 @@ p {
 
 .containerOne {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 40% 60%;
   padding:10px;
   grid-auto-rows: minmax(200px, auto);
   justify-content: center;
-  align-content: center;
+  align-content: left;
   font-family: Arial, Helvetica, sans-serif;  
 }
 
