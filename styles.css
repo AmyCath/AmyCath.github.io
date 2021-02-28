@@ -124,3 +124,22 @@ p {
   justify-content: center;
 
 }
+
+.goalsGrid {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 10px;
+  padding:10px;
+  grid-auto-rows: minmax(200px, auto);
+  justify-content: center;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.goalsGrid > div {
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  border-radius: 10px;
+  justify-content: center;
+}
