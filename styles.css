@@ -27,12 +27,14 @@ h4 {
   color: #03989E;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
 }
 
-h3 {
+h2 {
   color: #BB476E;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
+  padding:10px;
 }
 
 #introText {
