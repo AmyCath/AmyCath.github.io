@@ -32,6 +32,12 @@ p {
   padding: 0px;
 }
 
+#GoalsIMG {
+  width: 100%;
+  padding: 0px;
+}
+
+
 .item1 {
   grid-area: augIMG;
 }
